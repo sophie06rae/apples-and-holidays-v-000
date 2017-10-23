@@ -98,5 +98,5 @@ holiday.map do |holiday, items|
 holiday if items.include?("BBQ")
 holiday
 end
-end.flatten.compact
+end
 end
