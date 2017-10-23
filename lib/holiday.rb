@@ -99,7 +99,7 @@ holiday.map do |holiday, items|
 if items.include? "BBQ"
   bbq_array << holiday
 end
-bbq_array
+bbq_array.flatten
 end
 end
 end
