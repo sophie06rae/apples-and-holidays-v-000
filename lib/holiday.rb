@@ -98,3 +98,4 @@ holiday_hash.each do {|season, holiday|}
 holiday.include?(supply)
 holiday
 end
+end
