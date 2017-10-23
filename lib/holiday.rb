@@ -96,8 +96,8 @@ def all_holidays_with_bbq(holiday_hash)
 supply = ["BBQ"]
 bbq_holiday = []
 holiday_hash.each do |season, holiday|
-holiday.each do |holiday|
-  if holiday.include? supply
+holiday.each do |holiday,items|
+  if items.include? supply
 bbq_holiday << holiday
 bbq_holiday
 end
