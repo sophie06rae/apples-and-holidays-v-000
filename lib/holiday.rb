@@ -97,8 +97,8 @@ bbq_array = []
 holiday_hash.each do |season, holiday|
 holiday.each do |holiday, items|
 items.each do |name|
-
-end 
+binding.pry
+end
 end
 end
 end
