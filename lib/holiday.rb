@@ -97,7 +97,6 @@ holiday_bbq = []
 holiday_hash.map do |season, holiday|
 holiday.map do |holiday, items|
 if items.include?("BBQ")
-holiday_bbq << holiday
 end
 end
 end
