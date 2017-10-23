@@ -98,8 +98,9 @@ bbq_holiday = []
 holiday_hash.each do |season, holiday|
 holiday.each do |holiday|
   if holiday.include? supply
-bbq_holiday << holiday 
-
+bbq_holiday << holiday
+else
+end 
 end
 end
 end
