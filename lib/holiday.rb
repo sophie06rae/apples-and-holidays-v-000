@@ -100,7 +100,7 @@ holiday.each do |holiday|
   if holiday.include? supply
 bbq_holiday << holiday
 else
-end 
+end
 bbq_holiday
 end
 end
