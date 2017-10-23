@@ -95,9 +95,7 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
 bbq_array = []
 holiday_hash.each do |season, holiday|
-holiday.map do |holiday, items|
-  return holiday
-end
+holiday.find {|holiday, items| if items == "BBQ" return holiday }
 end
 end
 end
