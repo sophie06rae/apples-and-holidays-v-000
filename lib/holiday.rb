@@ -99,7 +99,7 @@ holiday.map do |holiday, items|
 if items.include?("BBQ")
 holiday
 else
-  holiday.delete
+  delete(holiday)
 end
 end
 end
