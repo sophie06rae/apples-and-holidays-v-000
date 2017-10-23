@@ -101,4 +101,3 @@ return bbq_array
 end
 end
 end
-end
