@@ -101,6 +101,7 @@ holiday.each do |holiday|
 bbq_holiday << holiday
 else
 end 
+bbq_holiday
 end
 end
 end
