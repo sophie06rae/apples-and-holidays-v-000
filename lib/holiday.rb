@@ -98,4 +98,3 @@ holiday_hash.each do |season, holiday|
 holiday.find {|holiday, items| if items == "BBQ" then return holiday end }
 end
 end
-end
